@@ -24,7 +24,7 @@ export interface Experience {
 
 export const profile = {
   name: "Mansi Saboo",
-  title: "Senior Site Reliability Engineer",
+  title: "Site Reliability Engineer II",
   tagline: "Kubernetes · IaC · GitOps · Security · AI-driven operations at scale",
   email: "panpaliya.mansi@gmail.com",
   phone: "+1 (602) 837-9992",
@@ -32,15 +32,16 @@ export const profile = {
   location: "Chicago, IL · Open to Relocate",
   yearsExperience: "7+",
   uptime: "99.9%",
-  summary: `Site Reliability Engineer with 7+ years building and operating large-scale cloud-native infrastructure at Okta. Specialized in Kubernetes, Terraform, Crossplane, Packer, and GitOps (ArgoCD) — with a proven track record of driving P1/P2 initiatives end-to-end: 96% faster cluster rollouts, 99% AMI automation gains, 800→70 vulnerability reduction, and FedRAMP compliance. Known as a multiplier — mentoring engineers, leading cross-functional initiatives, and pioneering AI-assisted SRE workflows.`,
+  summary: `Site Reliability Engineer with 7+ years experience building and operating large-scale cloud-native infrastructure at Okta. Specialized in Kubernetes, Terraform, Crossplane, Packer, and GitOps (ArgoCD) - with a proven track record of driving P0/P1 initiatives end-to-end: 96% faster cluster rollouts, 99% AMI automation gains, 800→70 vulnerability reduction, and FedRAMP compliance. Known as a multiplier - mentoring engineers, leading cross-functional initiatives, and pioneering AI-assisted SRE workflows.`,
   aboutExtended: [
-    "SRE II at Okta — spearheading high-impact P1/P2 projects across infrastructure automation, security, and multi-region production.",
-    "Independently delivered the bedrock Vulnerability Remediation initiative (800→70) by orchestrating Node-TTL, Packer/CircleCI, and Terraform-Live sub-projects.",
-    "Built FL16 APAC production cell one week ahead of schedule — overcoming unsupported Osaka (ap-northeast-3) region tooling gaps.",
-    "FedRAMP compliance via NodeSSH — eliminated bastions, integrated secure node access into azuquactl.",
-    "Driving Terraform → Crossplane migration and ArgoCD GitOps adoption for deployment automation and single-tenant isolation.",
-    "Multiplier & mentor — onboarded engineers globally, led sprint planning, office hours, and cross-timezone collaboration.",
-    "AI-focused: running POCs for AI-assisted backlog grooming, vulnerability ticket tagging, and toil reduction.",
+    "SRE II at Okta - spearheading high-impact P0/P1 projects across infrastructure automation, security, and multi-region production.",
+    "Driving Terraform → Crossplane migration and ArgoCD GitOps adoption for deployment automation and dedicated infrastructure SKU for a single tenant .",
+    "Built and productionized a dedicated infrastructure SKU at Okta using Crossplane and ArgoCD, enabling GitOps-driven deployments that reduced build time by ~40%, strengthened tenant security, and successfully onboarded multiple enterprise customers. This feature is now EA.",
+    "Built multiple production cells ahead of timeline - overcoming tooling gaps.",
+    "Independently delivered the bedrock Vulnerability Remediation initiative (800→70) by orchestrating automated k8s node roll, Packer/CircleCI machine image shipping pipeline, and Terraform migration sub-projects.",
+    "FedRAMP compliance via NodeSSH - eliminated bastions, integrated secure node access into our cli tooling.",
+    "Multiplier & mentor - onboarded engineers globally, led sprint planning, office hours, and cross-timezone collaboration.",
+    "AI-focused: running POCs for AI-assisted development cluster build, vulnerability management, and toil reduction.",
   ],
 };
 

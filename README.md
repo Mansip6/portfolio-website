@@ -1,6 +1,6 @@
-# Mansi Saboo — Senior SRE Portfolio
+# Mansi Saboo — SRE II Portfolio
 
-A retro pixel-art desktop-style portfolio website for a Senior Site Reliability Engineer.
+A retro pixel-art desktop-style portfolio website for a Site Reliability Engineer II.
 
 ## Features
 

@@ -114,7 +114,7 @@ function WorkContent() {
     <>
       <h2>Professional Experience</h2>
       <p>
-        7+ years at Okta driving P1/P2 infrastructure initiatives — from FL16 APAC
+        7+ years at Okta driving P0/P1 infrastructure initiatives — from FL16 APAC
         cell builds to bedrock vulnerability remediation, FedRAMP compliance, and
         Terraform → Crossplane GitOps migration.
       </p>
@@ -194,7 +194,7 @@ function ContactContent() {
     <>
       <h2>Get In Touch</h2>
       <p>
-        Open to Senior / Staff SRE roles at top-tier technology companies. Let's
+        Open to Senior SRE roles at top-tier technology companies. Let's
         build reliable systems together.
       </p>
       <a href={`mailto:${profile.email}`} className="contact-link">
