@@ -310,10 +310,6 @@ function App() {
             />
           ))}
         </div>
-
-        <div className="desktop-tip" role="note">
-          TIP ▸ double-click any icon to open
-        </div>
       </main>
 
       <Dock onAction={handleDockAction} />
